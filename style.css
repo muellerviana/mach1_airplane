@@ -1,0 +1,35 @@
+@keyframes animation { 
+    15% {width:23px;height: 23px;}
+    40% {width:120px;height: 120px;}
+    60% {width:23px;height: 23px;}
+    100% {margin-top: 5px;}
+}
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    height: 900px;
+    width: 500px;
+    background-color: rgb(30, 22, 58);
+    position: absolute;
+    text-align: center;
+   
+}
+.dash-border { 
+    margin-left: 246px;
+    height: 900px;
+    width: 30px;
+    border-left: dashed;
+    border-right:dashed;
+    border-color: aliceblue;
+}
+#plane {
+    width: 23px;
+    height: 23px;
+    margin-top: 845px;
+    animation-name: animation;
+    animation-duration: 10s;
+    animation-delay: 2s; 
+    position: fixed;
+}
